@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginTopPicker">15dp</dimen>
+    <dimen name="marginRelativeLyout">20dp</dimen>
+    <dimen name="marginLR">70dp</dimen>
+</resources>
