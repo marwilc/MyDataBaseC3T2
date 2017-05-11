@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.marwilc.mydatabase.ConfirmActivity"
+    android:gravity="center|top"
+    >
+        <LinearLayout
+            android:id="@+id/lyDataConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/tvConfirmData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/textViewConfirmData"
+                android:textSize="@dimen/textLarge"
+                android:textStyle="italic"
+                />
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/srlIndicatorRefresh"
+                android:layout_below="@id/lyDataConfirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ListView
+                    android:id="@+id/lstListView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                </ListView>
+            </android.support.v4.widget.SwipeRefreshLayout>
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textButtonEdit"
+        android:theme="@style/myButtonRaised"
+        android:layout_below="@+id/srlIndicatorRefresh"/>
+    </LinearLayout>
+
+</RelativeLayout>

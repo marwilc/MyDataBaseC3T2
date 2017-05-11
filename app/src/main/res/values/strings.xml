@@ -3,4 +3,20 @@
     <string name="hintName">Full Name</string>
     <string name="textViewDate">Set Date</string>
     <string name="textViewBirthday">Birthday</string>
+    <string name="textButtonOk">Ok</string>
+    <string name="textButtonCancel">Cancel</string>
+    <string name="textInputPhone">Phone</string>
+    <string name="textInputEmail">Email</string>
+    <string name="textInputDetail">Contact Detail</string>
+    <string name="textButtonNext">Next</string>
+    <string name="textViewConfirmData">Data Confirm</string>
+    <string name="textButtonEdit">Edit</string>
+    <string-array name="data">
+        <item> Full Name:</item>
+        <item> Birth Date: </item>
+        <item> Phone: </item>
+        <item> Email: </item>
+        <item> Detail: </item>
+    </string-array>
+
 </resources>

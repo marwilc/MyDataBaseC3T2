@@ -3,4 +3,5 @@
     <dimen name="marginTopPicker">15dp</dimen>
     <dimen name="marginRelativeLyout">20dp</dimen>
     <dimen name="marginLR">70dp</dimen>
+    <dimen name="textLarge">20dp</dimen>
 </resources>
